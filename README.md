@@ -47,19 +47,45 @@ Create a flash card:
 
 ```dart
 FlashCard(
-  topPages: [
-    Container(color: Colors.red, child: Center(child: Text('Top 1'))),
-    Container(color: Colors.blue, child: Center(child: Text('Top 2'))),
-  ],
-  bottomPages: [
-    Container(color: Colors.green, child: Center(child: Text('Bottom 1'))),
-    Container(color: Colors.orange, child: Center(child: Text('Bottom 2'))),
-  ],
-  cardHeight: 250,
-  borderRadiusAll: 16,
-  headerColor: Colors.amber,
-  topPageColor: Colors.white,
-  bottomPageColor: Colors.grey[200]!,
+  headerColor: Colors.black,
+  topPageColor: Colors.black,
+  bottomPageColor: Colors.black,
+  bottomColor: Colors.black,
+  borderRadiusAll: 50,
+  topPages: List.generate(
+    30,
+    (index) => Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        FlutterLogo(size: 100),
+        Text(
+          'Top Card Widget:',
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
+        Text(
+          'Index: $index',
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
+      ],
+    ),
+  ),
+  bottomPages: List.generate(
+    30,
+    (index) => Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        FlutterLogo(size: 100),
+        Text(
+          'Bottom Card Widget:',
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
+        Text(
+          'Index: $index',
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
+      ],
+    ),
+  ),
 );
 ```
 
@@ -74,14 +100,13 @@ FlashCard(
 <div>
   <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="200" alt="Top Page Flip" />
   <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="200" alt="Animation Running" />
-   
 </div>
 
 ---
 
 ## 🎥 Demo Video
 
- <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc3.gif" width="200" alt="Bottom Page Flip" />
+<img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc3.gif" width="200" alt="Bottom Page Flip" />
 
 Click the image to watch the demo video of the package in action.
 
@@ -89,16 +114,16 @@ Click the image to watch the demo video of the package in action.
 
 ## ⚙️ Customization
 
-| Property | Description | Default |
-|----------|-------------|---------|
-| `cardHeight` | Height of the flash card | 200 |
-| `margin` | Outer margin of the card | null |
-| `topPages` | List of widgets for top pages | required |
-| `bottomPages` | List of widgets for bottom pages | required |
-| `headerColor` | Color of the header | `Colors.amber` |
-| `topPageColor` | Background color of top pages | `Colors.amber` |
+| Property         | Description                      | Default        |
+|-----------------|----------------------------------|----------------|
+| `cardHeight`      | Height of the flash card         | 200            |
+| `margin`          | Outer margin of the card         | null           |
+| `topPages`        | List of widgets for top pages    | required       |
+| `bottomPages`     | List of widgets for bottom pages | required       |
+| `headerColor`     | Color of the header              | `Colors.amber` |
+| `topPageColor`    | Background color of top pages    | `Colors.amber` |
 | `bottomPageColor` | Background color of bottom pages | `Colors.amber` |
-| `borderRadiusAll` | Card border radius | 20 |
+| `borderRadiusAll` | Card border radius               | 20             |
 
 ---
 
@@ -111,4 +136,3 @@ You can check the `example/` folder in the repository for a full working demo.
 ## 📄 License
 
 This package is licensed under the [MIT License](LICENSE).
-
