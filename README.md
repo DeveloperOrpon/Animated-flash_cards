@@ -74,14 +74,14 @@ FlashCard(
 <div>
   <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="200" alt="Top Page Flip" />
   <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="200" alt="Animation Running" />
-    <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc3.gif" width="200" alt="Bottom Page Flip" />
+   
 </div>
 
 ---
 
 ## 🎥 Demo Video
 
-[![Watch Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+ <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc3.gif" width="200" alt="Bottom Page Flip" />
 
 Click the image to watch the demo video of the package in action.
 
