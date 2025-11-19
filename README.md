@@ -71,11 +71,10 @@ FlashCard(
 
 **FLASH CARD:**
 
-<img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="320" alt="Top Page Flip" />
-
-**When Animation is Running:**
-
-<img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="320" alt="Top Page Flip Animation" />
+<div>
+  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="160" alt="Top Page Flip" />
+  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="160" alt="Animation Running" />
+</div>
 
 ---
 
