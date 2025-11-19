@@ -69,13 +69,13 @@ FlashCard(
 
 ## 🖼 Example Images
 
-**Front/Top Page Flip:**
+**FLASH CARD:**
 
-![Top Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/assets/images/page_flip.gif)
+![Top Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png)
 
-**Back/Bottom Page Flip:**
+**When Animation is Running:**
 
-![Bottom Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/assets/images/daily_placeholder.png)
+![Top Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png)
 
 ---
 
