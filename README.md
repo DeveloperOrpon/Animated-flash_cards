@@ -127,12 +127,6 @@ Click the image to watch the demo video of the package in action.
 
 ---
 
-## 💻 Example Project
-
-You can check the `example/` folder in the repository for a full working demo.
-
----
-
 ## 📄 License
 
 This package is licensed under the [MIT License](LICENSE).
