@@ -72,8 +72,8 @@ FlashCard(
 **FLASH CARD:**
 
 <div>
-  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="160" alt="Top Page Flip" />
-  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="160" alt="Animation Running" />
+  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc2.png" width="180" alt="Top Page Flip" />
+  <img src="https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/doc/doc1.png" width="180" alt="Animation Running" />
 </div>
 
 ---
