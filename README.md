@@ -30,7 +30,7 @@ dependencies:
 Then run:
 
 ```bash
-flutter pub get
+flutter pub get animated_flash_cards
 ```
 
 ---
