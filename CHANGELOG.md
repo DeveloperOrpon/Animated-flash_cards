@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [1.1.3] - 2025-11-20  
+### Changed
+- Add Package Screenshot to README.md.
+- Updated documentation to better explain forward/backward flip behavior and top/bottom page support.
+
 ## [1.1.2] - 2025-11-20  
 ### Changed
 - Improved readability for users by refining descriptions of newly added flash-card page flipping animations.
