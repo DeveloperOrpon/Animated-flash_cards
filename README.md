@@ -1,39 +1,114 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Animated Flash Cards
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A Flutter package for **animated flash cards** with book-like forward and backward page flipping. Fully customizable cards with top and bottom pages, colors, fonts, and page flip animations.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+[![pub package](https://img.shields.io/pub/v/animated_flash_cards.svg)](https://pub.dev/packages/animated_flash_cards)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
-## Features
+## 📦 Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Forward and backward page flipping animation.
+- Customizable top and bottom pages.
+- DecorationImage support for page flip GIFs.
+- Customizable card height, colors, border radius, and margins.
+- Easy to integrate into any Flutter app.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## 🛠 Installation
 
-## Usage
+Add the dependency in your `pubspec.yaml`:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  animated_flash_cards:
+    git:
+      url: https://github.com/DeveloperOrpon/Animated-flash_cards.git
 ```
 
-## Additional information
+Then run:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```bash
+flutter pub get
+```
+
+---
+
+## 🎨 Usage
+
+Import the package:
+
+```dart
+import 'package:animated_flash_cards/animated_flash_cards.dart';
+```
+
+Create a flash card:
+
+```dart
+FlashCard(
+  topPages: [
+    Container(color: Colors.red, child: Center(child: Text('Top 1'))),
+    Container(color: Colors.blue, child: Center(child: Text('Top 2'))),
+  ],
+  bottomPages: [
+    Container(color: Colors.green, child: Center(child: Text('Bottom 1'))),
+    Container(color: Colors.orange, child: Center(child: Text('Bottom 2'))),
+  ],
+  cardHeight: 250,
+  borderRadiusAll: 16,
+  headerColor: Colors.amber,
+  topPageColor: Colors.white,
+  bottomPageColor: Colors.grey[200]!,
+);
+```
+
+> **Note:** `topPages` and `bottomPages` lists **must have the same length**. Otherwise, an assertion error will be thrown.
+
+---
+
+## 🖼 Example Images
+
+**Front/Top Page Flip:**
+
+![Top Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/assets/images/page_flip.gif)
+
+**Back/Bottom Page Flip:**
+
+![Bottom Page Flip](https://raw.githubusercontent.com/DeveloperOrpon/Animated-flash_cards/main/assets/images/daily_placeholder.png)
+
+---
+
+## 🎥 Demo Video
+
+[![Watch Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+Click the image to watch the demo video of the package in action.
+
+---
+
+## ⚙️ Customization
+
+| Property | Description | Default |
+|----------|-------------|---------|
+| `cardHeight` | Height of the flash card | 200 |
+| `margin` | Outer margin of the card | null |
+| `topPages` | List of widgets for top pages | required |
+| `bottomPages` | List of widgets for bottom pages | required |
+| `headerColor` | Color of the header | `Colors.amber` |
+| `topPageColor` | Background color of top pages | `Colors.amber` |
+| `bottomPageColor` | Background color of bottom pages | `Colors.amber` |
+| `borderRadiusAll` | Card border radius | 20 |
+
+---
+
+## 💻 Example Project
+
+You can check the `example/` folder in the repository for a full working demo.
+
+---
+
+## 📄 License
+
+This package is licensed under the [MIT License](LICENSE).
+
